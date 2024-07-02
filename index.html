@@ -9,17 +9,47 @@
 </head>
 <body>
     <header>
-        <h1 class="nav-title"><a href="index.html">Fitness</h1></a>
+        <h1 class="nav-title"><a href="index.html">Fitness Blog</h1></a>
         <nav id="navbar">
             <ul class="nav-top">
                 <li>
                     <a href="blog.html">Blog</a>
                 </li>
-            </ul>
-        </nav>
+                <div class="switch">
+                    <label class="theme-switch" for="checkbox">
+                        <input id="checkbox" type="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                    <em></em>
+                </div>
+            </ul>    
+        </nav>    
     </header>
 
-    <main></main>
+    <main>
+        <section class="layout">
+            <div class="border-top">
+                <div class="left-side">
+                    <img src="./assets/images/Fitness-Blogs-Img.jpeg" alt="Image of a runner lacing up his shoe" />
+                </div>
+                <div class="right-side">
+                    <h2>What's on your mind?</h2>
+                        <form id="content-form">
+                            <label for="username" class="label">Username: </label>
+                            <input type="text" class="input" id="username" name="username">
+                            <br>
+                            <label for="postTitle" class="label">Post Title: </label>
+                            <input type="text" class="input" id="postTitle" name="postTitle">
+                            <br>
+                            <label for="postContent" class="label">Content: </label>
+                            <textarea type="text" class="input" id="postContent" name="postContent"></textarea>
+                            <br>
+                            <button id="submit" class="submit">Submit</button>
+                        </form>
+                </div>
+            </div>
+        </section>
+    </main>
     
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/form.js"></script>

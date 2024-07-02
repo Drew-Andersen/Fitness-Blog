@@ -1,0 +1,39 @@
+.layout {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.border-top {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.left-side {
+    padding: 2rem;
+    max-width: 40rem;
+}
+
+img {
+    width: 100%;
+}
+
+right-side {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+}
+
+/* Dark Mode */
+[data-theme="Dark"] {
+    .input {
+        background-color: white;
+    }
+    button {
+        background-color: orange;
+        color: black;
+    }
+}
