@@ -1,17 +1,6 @@
-/* Light Mode */
-:root {
-    color: #0f0f0f;
-    background-color: #fefefe;
-}
-
 * {
     margin: 0;
     padding: 0;
-}
-
-html {
-    scroll-behavior: smooth;
-    height: auto;
 }
 
 body {
@@ -41,7 +30,7 @@ header {
 }
 
 header nav {
-    padding-right: 3%;
+    padding-right: 2%;
 }
 
 .nav-top {
@@ -62,8 +51,7 @@ header nav {
 }
 
 .nav-top a:hover {
-    background-color: red;
-    box-shadow: 0 1px 8px blue;
+    box-shadow: 0 1px 8px #1d1d1d;
 }
 
 /* CSS for the switch */
@@ -121,25 +109,6 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-}
-
-.input {
-    width: 100%;
-    height: 30px;
-}
-
-textarea {
-    width: 100%;
-    height: 70px;
-}
-
-button {
-    border-radius: 10px;
-    width: 80%;
-    height: 35px;
-    font-size: 1.2rem;
-    font-weight: bold;
-
 }
 
 /* Dark Mode */
