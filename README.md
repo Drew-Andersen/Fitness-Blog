@@ -1,12 +1,12 @@
-# Fitness-Blog
+# My-First-Blog
 
 ## Description
 
-This is a fitness blog. The posts inform readers of the best fitness practices and helps reader get the knowledge they need to reach their fitness goals.
-** Add an image of the deployed website **
+This is a fitness blog. The posts inform readers of the best fitness practices and helps reader get the knowledge they need to reach their fitness goals. This will be incorperated into Andersen Fitness website once it is out of the developmental stages.
+![alt text](assets/images/Blog-img.png)
 
 ## Depoyed Website
-** Add the deployed application here **
+https://drew-andersen.github.io/Fitness-Blog/
 
 ## Installation
 
